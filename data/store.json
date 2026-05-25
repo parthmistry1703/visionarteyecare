@@ -1,0 +1,124 @@
+{
+  "nextAppointmentId": 2,
+  "nextOrderId": 2,
+  "nextProductId": 8,
+  "appointments": [
+    {
+      "id": 1,
+      "name": "Saved Patient",
+      "phone": "+91 6666666666",
+      "service": "Eye Examination",
+      "message": "Persistent booking",
+      "status": "pending",
+      "createdAt": "2026-05-20T07:19:40.324Z",
+      "updatedAt": "2026-05-20T07:19:40.324Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "Saved Buyer",
+      "phone": "+91 7777777777",
+      "deliveryMode": "pickup",
+      "status": "pending",
+      "items": [
+        {
+          "productId": 7,
+          "productName": "Persistence Test Frame",
+          "quantity": 1,
+          "unitPrice": 1234,
+          "lineTotal": 1234
+        }
+      ],
+      "subtotal": 1234,
+      "createdAt": "2026-05-20T07:19:40.308Z",
+      "updatedAt": "2026-05-20T07:19:40.308Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 7,
+      "name": "Persistence Test Frame",
+      "category": "Eyeglasses",
+      "description": "Saved test product",
+      "price": 1234,
+      "badge": "Test",
+      "colorway": "from-[#2e7fc2] to-[#1f5f94]",
+      "imageHint": "Saved locally",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Classic Metal Frame",
+      "category": "Eyeglasses",
+      "description": "Lightweight everyday frame for office, study, and regular wear.",
+      "price": 2499,
+      "badge": "Best Seller",
+      "colorway": "from-[#2e7fc2] to-[#1f5f94]",
+      "imageHint": "Slim frame, premium finish",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Premium Acetate Square",
+      "category": "Eyeglasses",
+      "description": "Bold modern square frame with comfortable fit and premium styling.",
+      "price": 3299,
+      "badge": "New Arrival",
+      "colorway": "from-[#4a9e5c] to-[#2f6b3c]",
+      "imageHint": "Modern square look",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Polarized Sun Shield",
+      "category": "Sunglasses",
+      "description": "Stylish polarized sunglasses built for bright outdoor conditions.",
+      "price": 2799,
+      "badge": "Summer Pick",
+      "colorway": "from-[#e8a820] to-[#b67b0c]",
+      "imageHint": "Outdoor glare protection",
+      "featured": true,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Blue Light Office Lens Combo",
+      "category": "Blue Light",
+      "description": "Comfort-focused frame package for laptop and screen-heavy workdays.",
+      "price": 3599,
+      "badge": "Office Essential",
+      "colorway": "from-[#5160d8] to-[#3441aa]",
+      "imageHint": "Blue light comfort",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Daily Contact Lens Pack",
+      "category": "Contact Lenses",
+      "description": "Convenient daily-wear contact lens pack for active lifestyles.",
+      "price": 1999,
+      "badge": "Easy Wear",
+      "colorway": "from-[#0ea5a4] to-[#0f766e]",
+      "imageHint": "Comfortable daily wear",
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Kids Flexible Frame",
+      "category": "Kids",
+      "description": "Durable, light, and child-friendly frame made for everyday use.",
+      "price": 2199,
+      "badge": "Family Choice",
+      "colorway": "from-[#f472b6] to-[#db2777]",
+      "imageHint": "Flexible kids frame",
+      "featured": false,
+      "inStock": true
+    }
+  ]
+}
